@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="es-AR">
 <head>
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="base-uri 'self'; object-src 'none'; form-action 'none'">
+<script src="site-security.js"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="La Callecita — Cafetería y Pastelería Artesanal en La Plata. Café de especialidad Timau, tortas artesanales y un rincón acogedor para disfrutar. Calle 36 nro 541, La Plata Centro.">
@@ -29,7 +33,7 @@
                 <a href="#momentos" class="nav-link">Momentos</a>
                 <a href="#contacto" class="nav-link">Contacto</a>
             </nav>
-            <a href="https://wa.me/5492214181945?text=Hola%20La%20Callecita%2C%20me%20gustar%C3%ADa%20hacer%20una%20consulta" class="header-cta" target="_blank" rel="noopener">
+            <a href="https://wa.me/5492214181945?text=Hola%20La%20Callecita%2C%20me%20gustar%C3%ADa%20hacer%20una%20consulta" class="header-cta" target="_blank" rel="noopener noreferrer">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
                 Escribinos
             </a>
@@ -49,7 +53,7 @@
             <a href="#galeria" class="mobile-link">Galería</a>
             <a href="#momentos" class="mobile-link">Momentos</a>
             <a href="#contacto" class="mobile-link">Contacto</a>
-            <a href="https://wa.me/5492214181945?text=Hola%20La%20Callecita%2C%20me%20gustar%C3%ADa%20hacer%20una%20consulta" class="mobile-cta" target="_blank" rel="noopener">Escribinos por WhatsApp</a>
+            <a href="https://wa.me/5492214181945?text=Hola%20La%20Callecita%2C%20me%20gustar%C3%ADa%20hacer%20una%20consulta" class="mobile-cta" target="_blank" rel="noopener noreferrer">Escribinos por WhatsApp</a>
         </nav>
     </div>
 
@@ -68,7 +72,7 @@
             <p class="hero-subtitle reveal">Un rincón acogedor en el corazón de La Plata, donde las tortas se hornean con paciencia y el café se prepara con cariño. Vení a descansar, a conversar, a sentirte en casa.</p>
             <div class="hero-actions reveal">
                 <a href="#momentos" class="btn btn-primary">Conocé nuestros momentos</a>
-                <a href="https://wa.me/5492214181945?text=Hola%20La%20Callecita%2C%20%C2%BFQu%C3%A9%20horarios%20tienen%20hoy%3F" class="btn btn-secondary" target="_blank" rel="noopener">Consultá horarios</a>
+                <a href="https://wa.me/5492214181945?text=Hola%20La%20Callecita%2C%20%C2%BFQu%C3%A9%20horarios%20tienen%20hoy%3F" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">Consultá horarios</a>
             </div>
             <div class="hero-scroll-indicator reveal">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
@@ -150,7 +154,7 @@
                         </div>
                     </div>
                     <p class="star-cta-text">¿Querés saber qué más tenemos? Consultá la carta completa por WhatsApp.</p>
-                    <a href="https://wa.me/5492214181945?text=Hola%20La%20Callecita%2C%20%C2%BFme%20pueden%20pasar%20la%20carta%3F" class="btn btn-primary" target="_blank" rel="noopener">Ver la carta completa</a>
+                    <a href="https://wa.me/5492214181945?text=Hola%20La%20Callecita%2C%20%C2%BFme%20pueden%20pasar%20la%20carta%3F" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Ver la carta completa</a>
                 </div>
             </div>
         </div>
@@ -305,7 +309,7 @@
                             </div>
                             <div>
                                 <strong>WhatsApp</strong>
-                                <p><a href="https://wa.me/5492214181945" target="_blank" rel="noopener">221 418-1945</a></p>
+                                <p><a href="https://wa.me/5492214181945" target="_blank" rel="noopener noreferrer">221 418-1945</a></p>
                             </div>
                         </div>
                         <div class="contact-item">
@@ -323,7 +327,7 @@
                             </div>
                             <div>
                                 <strong>Instagram</strong>
-                                <p><a href="https://www.instagram.com/lacallecita/?hl=es" target="_blank" rel="noopener">@lacallecita</a></p>
+                                <p><a href="https://www.instagram.com/lacallecita/?hl=es" target="_blank" rel="noopener noreferrer">@lacallecita</a></p>
                             </div>
                         </div>
                     </div>
@@ -365,7 +369,7 @@
                             <label for="details">Detalles (opcional)</label>
                             <textarea id="details" name="details" rows="3" placeholder="Contanos un poco más..."></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-full">
+                        <button type="submit" class="btn btn-primary btn-full" disabled data-security-submit>
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.613.613l4.458-1.495A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.37 0-4.567-.82-6.293-2.192l-.44-.356-2.871.962.962-2.871-.356-.44A9.965 9.965 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
                             Enviar por WhatsApp
                         </button>
@@ -394,23 +398,23 @@
                     <div class="footer-col">
                         <h4>Contacto</h4>
                         <a href="tel:+5492214181945">221 418-1945</a>
-                        <a href="https://www.instagram.com/lacallecita/?hl=es" target="_blank" rel="noopener">Instagram</a>
-                        <a href="https://wa.me/5492214181945" target="_blank" rel="noopener">WhatsApp</a>
+                        <a href="https://www.instagram.com/lacallecita/?hl=es" target="_blank" rel="noopener noreferrer">Instagram</a>
+                        <a href="https://wa.me/5492214181945" target="_blank" rel="noopener noreferrer">WhatsApp</a>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2026 La Callecita. Todos los derechos reservados.</p>
-                <p class="footer-credit">Hecho con ☕ por <a href="https://tuweben3dias.com" target="_blank" rel="noopener">tuweben3dias.com</a></p>
+                <p class="footer-credit">Hecho con ☕ por <a href="https://tuweben3dias.com" target="_blank" rel="noopener noreferrer">tuweben3dias.com</a></p>
             </div>
         </div>
     </footer>
 
     <!-- WHATSAPP FLOTANTE -->
-    <a href="https://wa.me/5492214181945?text=Hola%20La%20Callecita%2C%20%C2%BFqu%C3%A9%20tienen%20de%20tomar%3F" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <a href="https://wa.me/5492214181945?text=Hola%20La%20Callecita%2C%20%C2%BFqu%C3%A9%20tienen%20de%20tomar%3F" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
         <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.613.613l4.458-1.495A11.952 11.952 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.37 0-4.567-.82-6.293-2.192l-.44-.356-2.871.962.962-2.871-.356-.44A9.965 9.965 0 012 12C2 6.486 6.486 2 12 2s10 4.486 10 10-4.486 10-10 10z"/></svg>
     </a>
 
-    <script src="./script.js"></script>
+    <script data-site-script src="./script.js"></script>
 </body>
 </html>

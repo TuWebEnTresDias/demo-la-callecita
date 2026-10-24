@@ -145,7 +145,7 @@
             var encodedMsg = encodeURIComponent(msg);
             var whatsappURL = 'https://wa.me/' + whatsappNumber + '?text=' + encodedMsg;
 
-            window.open(whatsappURL, '_blank', 'noopener');
+            window.open(whatsappURL, '_blank', 'noopener,noreferrer');
         });
     }
 
